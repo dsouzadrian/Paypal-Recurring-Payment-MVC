@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paypal Recurring Payment MVC", "Paypal Recurring Payment MVC\Paypal Recurring Payment MVC.csproj", "{BFF9063F-3F7C-4AEE-83B4-58D28DB82CFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFF9063F-3F7C-4AEE-83B4-58D28DB82CFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFF9063F-3F7C-4AEE-83B4-58D28DB82CFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFF9063F-3F7C-4AEE-83B4-58D28DB82CFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFF9063F-3F7C-4AEE-83B4-58D28DB82CFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9434CAF0-C0E9-4A07-8145-D4284D2E4A2A}
+	EndGlobalSection
+EndGlobal
