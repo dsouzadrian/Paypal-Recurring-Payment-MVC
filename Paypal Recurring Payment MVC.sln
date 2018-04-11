@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paypal Recurring Payment MVC", "Paypal Recurring Payment MVC\Paypal Recurring Payment MVC.csproj", "{BFF9063F-3F7C-4AEE-83B4-58D28DB82CFD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC-Controller", "MVC-Controller\MVC-Controller.csproj", "{9844FEB7-C585-49E8-BD6F-9C9BAFE967DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC-View", "MVC-View\MVC-View.csproj", "{0AEC2DCD-3DD2-4907-A748-01A080DF54F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC-Model", "MVC-Model\MVC-Model.csproj", "{3D1A1B6F-71A5-473D-BE6E-1807D5840B52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayPal Recurring Payment Main", "PayPal Recurring Payment Main\PayPal Recurring Payment Main.csproj", "{5E519027-73B1-4CE6-B0E5-B5282175E2A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +17,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BFF9063F-3F7C-4AEE-83B4-58D28DB82CFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BFF9063F-3F7C-4AEE-83B4-58D28DB82CFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BFF9063F-3F7C-4AEE-83B4-58D28DB82CFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BFF9063F-3F7C-4AEE-83B4-58D28DB82CFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9844FEB7-C585-49E8-BD6F-9C9BAFE967DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9844FEB7-C585-49E8-BD6F-9C9BAFE967DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9844FEB7-C585-49E8-BD6F-9C9BAFE967DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9844FEB7-C585-49E8-BD6F-9C9BAFE967DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AEC2DCD-3DD2-4907-A748-01A080DF54F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AEC2DCD-3DD2-4907-A748-01A080DF54F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AEC2DCD-3DD2-4907-A748-01A080DF54F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AEC2DCD-3DD2-4907-A748-01A080DF54F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D1A1B6F-71A5-473D-BE6E-1807D5840B52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D1A1B6F-71A5-473D-BE6E-1807D5840B52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D1A1B6F-71A5-473D-BE6E-1807D5840B52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D1A1B6F-71A5-473D-BE6E-1807D5840B52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E519027-73B1-4CE6-B0E5-B5282175E2A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E519027-73B1-4CE6-B0E5-B5282175E2A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E519027-73B1-4CE6-B0E5-B5282175E2A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E519027-73B1-4CE6-B0E5-B5282175E2A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
